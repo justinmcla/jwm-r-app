@@ -17,6 +17,7 @@ jobs:
       
     - name: 'Install'
       run: |
+        cd server
         npm install
 
     - name: 'Run Azure webapp deploy action using publish profile credentials'
